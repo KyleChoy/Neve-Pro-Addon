@@ -1,0 +1,14 @@
+.hfg_footer {
+  bottom: 0;
+  width: 100%;
+
+  &.has-sticky-rows {
+    z-index: 1000;
+    position: fixed;
+
+    &.is-stuck .footer--row:not(.is_sticky) {
+      max-height: 0;
+      overflow: hidden;
+    }
+  }
+}

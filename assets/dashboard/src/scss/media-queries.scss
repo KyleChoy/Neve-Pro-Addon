@@ -1,0 +1,13 @@
+$laptop: '700px';
+$desktop: '1080px';
+
+@media (min-width: #{$laptop}) {
+  @include header--laptop();
+  @include footer--laptop();
+  @include toast--laptop();
+}
+
+
+@media (min-width: #{$desktop}) {
+  @include tile--desktop();
+}

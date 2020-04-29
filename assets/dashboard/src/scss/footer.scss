@@ -1,0 +1,16 @@
+.dash__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  border-top: 1px solid #ccc;
+}
+
+
+@mixin footer--laptop() {
+  .dash__footer {
+    margin: 0 -20px -20px;
+    padding: 20px;
+    justify-content: flex-end;
+  }
+}

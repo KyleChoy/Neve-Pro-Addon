@@ -1,0 +1,31 @@
+.nv-social-icons-list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  li:not(:first-child) {
+    /*rtl:remove*/
+      margin-left: 10px;
+    }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    line-height: 1;
+    transition: opacity .2s ease;
+    border-radius: 5px;
+    &:hover {
+      opacity: .75;
+    }
+  }
+}
+
+/*rtl:begin:ignore*/
+body.rtl {
+  li:not(:last-child) {
+    margin-left: 10px;
+  }
+}
+/*rtl:end:ignore*/
+

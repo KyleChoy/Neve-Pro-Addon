@@ -1,0 +1,22 @@
+.site-header.neve-transparent-header:not(.is-stuck) {
+  .header-menu-sidebar.dropdown  {
+    position: absolute;
+    top: 100%;
+  }
+  .header--row .header--row-inner {
+    background-color: transparent !important;
+    background: none !important;
+    &:before {
+      background-color: transparent !important;
+    }
+  }
+}
+
+.header .neve-transparent-header:not(.is-stuck) {
+  .header--row .header--row-inner{
+    background-color: transparent;
+  }
+  .nv-navbar {
+    background-color: transparent;
+  }
+}

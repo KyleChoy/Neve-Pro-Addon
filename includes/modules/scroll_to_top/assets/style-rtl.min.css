@@ -1,0 +1,1 @@
+.scroll-to-top{position:fixed;bottom:30px;left:20px;display:none;opacity:0;visibility:hidden;transition:opacity .3s ease-in-out,visibility .3s ease-in-out;align-items:center;justify-content:center;border-radius:3px;padding:8px 10px;color:#fff;background-color:#0366d6;z-index:100000}.scroll-to-top:hover{cursor:pointer}@media (min-width:960px){.scroll-to-top{display:flex}}

@@ -1,0 +1,92 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_neve">
+            <key name="button_base_link_setting"/>
+            <key name="button_base_text_setting"/>
+            <key name="button_base_2_link_setting"/>
+            <key name="button_base_2_text_setting"/>
+            <key name="button_base_3_link_setting"/>
+            <key name="button_base_3_text_setting"/>
+            <key name="custom_html_content"/>
+            <key name="custom_html_2_content"/>
+            <key name="custom_html_3_content"/>
+            <key name="header_search_placeholder"/>
+            <key name="header_search_2_placeholder"/>
+            <key name="header_search_responsive_placeholder"/>
+
+            <key name="button_base_4_link_setting"/>
+            <key name="button_base_4_text_setting"/>
+            <key name="button_base_5_link_setting"/>
+            <key name="button_base_5_text_setting"/>
+            <key name="button_base_6_link_setting"/>
+            <key name="button_base_6_text_setting"/>
+            <key name="custom_html_4_content"/>
+            <key name="custom_html_5_content"/>
+            <key name="custom_html_6_content"/>
+
+
+            <key name="neve_shop_pagination_type"/>
+            <key name="neve_enable_product_filter"/>
+            <key name="neve_enable_product_layout_toggle"/>
+            <key name="neve_product_card_layout"/>
+            <key name="neve_box_shadow_intensity"/>
+            <key name="neve_add_to_cart_display"/>
+            <key name="neve_quick_view"/>
+            <key name="neve_wish_list"/>
+            <key name="neve_image_hover"/>
+            <key name="neve_product_content_alignment"/>
+            <key name="neve_advanced_reviews"/>
+            <key name="neve_sale_tag_position"/>
+            <key name="neve_sale_tag_text"/>
+            <key name="neve_sale_tag_alignment"/>
+            <key name="neve_sale_tag_radius"/>
+            <key name="neve_enable_sale_percentage"/>
+            <key name="neve_sale_tag_color"/>
+
+            <key name="neve_single_product_gallery_layout"/>
+            <key name="neve_enable_product_gallery_thumbnails_slider"/>
+            <key name="neve_enable_product_image_zoom_effect"/>
+            <key name="neve_enable_product_breadcrumbs"/>
+            <key name="neve_enable_product_tabs"/>
+            <key name="neve_single_product_related_count"/>
+            <key name="neve_enable_product_related"/>
+            <key name="neve_enable_product_related_slider"/>
+            <key name="neve_enable_product_upsells"/>
+            <key name="neve_enable_related_viewed"/>
+            <key name="neve_enable_cart_upsells"/>
+            <key name="neve_enable_checkout_fixed_order"/>
+            <key name="neve_enable_checkout_distraction_free"/>
+            <key name="neve_enable_checkout_order_note"/>
+            <key name="neve_enable_checkout_coupon"/>
+            <key name="neve_checkout_labels_placeholders"/>
+
+            <key name="neve_posts_order"/>
+            <key name="neve_grid_layout"/>
+            <key name="neve_enable_masonry"/>
+            <key name="neve_post_excerpt_length"/>
+            <key name="neve_pagination_type"/>
+            <key name="neve_metadata_separator"/>
+            <key name="neve_author_avatar"/>
+            <key name="neve_read_more_text"/>
+            <key name="neve_read_more_style"/>
+
+            <key name="neve_scroll_to_top_side"/>
+            <key name="neve_scroll_to_top_offset"/>
+            <key name="neve_scroll_to_top_on_mobile"/>
+            <key name="neve_scroll_to_top_icon_color"/>
+            <key name="neve_scroll_to_top_icon_hover_color"/>
+            <key name="neve_scroll_to_top_background_color"/>
+            <key name="neve_scroll_to_top_background_hover_color"/>
+            <key name="neve_scroll_to_top_icon_size"/>
+            <key name="neve_scroll_to_top_border_radius"/>
+
+            <key name="neve_course_pagination_type"/>
+            <key name="neve_course_box_shadow_intensity"/>
+            <key name="neve_course_card_layout"/>
+            <key name="neve_membership_pagination_type"/>
+            <key name="neve_membership_box_shadow_intensity"/>
+            <key name="neve_membership_card_layout"/>
+            <key name="neve_lifter_primary_color"/>
+        </key>
+    </admin-texts>
+</wpml-config>

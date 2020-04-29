@@ -1,0 +1,80 @@
+.nv-checkout-no-distraction {
+  .neve-main {
+    padding-top: 30px;
+  }
+
+  .nv-nav-header {
+    pointer-events: none;
+  }
+
+  .navbar-toggle-wrapper {
+    display: none;
+  }
+
+  .site-logo {
+    justify-content: center;
+  }
+}
+
+.nv-checkout-boxed-style {
+  .neve-main {
+    background-color: #f7f7f7;
+  }
+
+  .nv-page-title-wrap.nv-big-title .nv-page-title {
+    border-bottom: 0;
+  }
+
+  .woocommerce-checkout-review-order .woocommerce-checkout-review-order-table {
+    background-color: #fff;
+
+    thead {
+      background-color: #fff;
+    }
+  }
+
+  #customer_details {
+    background-color: #fff;
+  }
+
+  h3 {
+    background-color: #fff;
+  }
+}
+
+.nv-checkout-labels-placeholders.woocommerce-checkout {
+  .form-row > label {
+    display: none;
+  }
+}
+
+.nv-checkout-fixed-total.woocommerce-checkout {
+  form.woocommerce-checkout {
+    flex-direction: column-reverse;
+  }
+
+  #payment {
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid #f0f0f0;
+  }
+}
+
+@mixin checkout--laptop() {
+  .nv-checkout-fixed-total {
+    #order_review {
+      z-index: 1000000;
+    }
+
+    #payment {
+      margin: 0 12px 9px 12px;
+      background: #f9f9f9;
+    }
+  }
+  .nv-checkout-fixed-total.woocommerce-checkout {
+    #payment {
+      border: 1px solid #f0f0f0;
+      margin-bottom: 12px;
+    }
+  }
+}

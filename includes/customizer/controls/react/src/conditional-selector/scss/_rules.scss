@@ -1,0 +1,62 @@
+.nv-conditional-selector-control {
+  .rule-group {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+
+  .rule-set {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .select-wrap {
+    margin-bottom: 10px;
+
+    &.root {
+      width: 70%;
+    }
+
+    &.condition {
+      width: calc(30% - 5px);
+      margin-left: 5px;
+    }
+
+    &.end {
+      width: 70%;
+    }
+  }
+
+  .rule-set button {
+    margin-left: 5px;
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+  }
+
+  .actions {
+    display: flex;
+
+    button:last-child:not(:first-child) {
+      margin-left: auto;
+    }
+  }
+
+  .chainer {
+    border-radius: 3px;
+    font-weight: 900;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 0 1px 10px;
+    width: 100%;
+  }
+
+  > .chainer {
+    display: block;
+    margin: 10px 1px;
+  }
+}

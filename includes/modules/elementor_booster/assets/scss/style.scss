@@ -1,0 +1,23 @@
+@import "flip-card";
+@import "review-box";
+@import "social-sharing";
+@import "team-member";
+@import "progress-circle";
+@import "banner";
+@import "content-switcher";
+
+.elementor-section.neb-particles-section .elementor-container {
+  z-index: 1;
+}
+
+.neb-particles-section {
+  position: relative;
+  z-index: 1;
+}
+
+canvas.particles-js-canvas-el {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}

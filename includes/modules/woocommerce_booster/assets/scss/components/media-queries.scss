@@ -1,0 +1,20 @@
+@media (min-width: #{$tablet-sm}) {
+}
+
+@media (min-width: #{$tablet}) {
+  @include wishlist--tablet();
+}
+
+@media (min-width: #{$laptop}) {
+  @include cart--laptop();
+  @include checkout--laptop();
+  @include quick-view--laptop();
+  @include wishlist--laptop();
+  @include off-canvas--laptop();
+  @include product-nav--laptop();
+  @include cart-off-canvas--laptop();
+}
+
+@media (min-width: #{$desktop}) {
+  @include recently--desktop();
+}

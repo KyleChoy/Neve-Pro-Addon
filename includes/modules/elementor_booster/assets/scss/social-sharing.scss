@@ -1,0 +1,189 @@
+.nv-content-wrap a.eaw-share-link,
+.eaw-share-link {
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.eaw-share-link .eaw-icon,
+.eaw-share-link .eaw-label {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.eaw-share-link .eaw-icon + .eaw-label {
+  padding-left: 5px;
+}
+
+.eaw-label {
+  font-size: 13px;
+}
+
+.eaw-btn {
+  margin: 5px;
+  display: inline-block;
+  padding: 10px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  transition: box-shadow .2s cubic-bezier(0.4, 0, 1, 1), background-color .2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow .2s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.eaw-btn:hover {
+  opacity: 1 !important;
+}
+
+.eaw-btn.eaw-btn-facebook {
+  color: #ffffff;
+  background-color: #3b5998;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(59, 89, 152, 0.14), 0 3px 1px -2px rgba(59, 89, 152, 0.2), 0 1px 5px 0 rgba(59, 89, 152, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(59, 89, 152, 0.14), 0 3px 1px -2px rgba(59, 89, 152, 0.2), 0 1px 5px 0 rgba(59, 89, 152, 0.12);
+}
+
+.eaw-btn.eaw-btn-facebook:focus, .eaw-btn.eaw-btn-facebook:active, .eaw-btn.eaw-btn-facebook:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(59, 89, 152, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 89, 152, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(59, 89, 152, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 89, 152, 0.2);
+}
+
+.eaw-btn.eaw-btn-twitter, .eaw-btn.eaw-btn-email {
+  color: #ffffff;
+  background-color: #55acee;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(85, 172, 238, 0.14), 0 3px 1px -2px rgba(85, 172, 238, 0.2), 0 1px 5px 0 rgba(85, 172, 238, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(85, 172, 238, 0.14), 0 3px 1px -2px rgba(85, 172, 238, 0.2), 0 1px 5px 0 rgba(85, 172, 238, 0.12);
+  height: auto;
+}
+
+.eaw-btn.eaw-btn-twitter:focus, .eaw-btn.eaw-btn-twitter:active, .eaw-btn.eaw-btn-twitter:hover, .eaw-btn.eaw-btn-email:focus, .eaw-btn.eaw-btn-email:active, .eaw-btn.eaw-btn-email:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(85, 172, 238, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(85, 172, 238, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(85, 172, 238, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(85, 172, 238, 0.2);
+}
+
+.eaw-btn.eaw-btn-pinterest {
+  color: #ffffff;
+  background-color: #cc2127;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(204, 33, 39, 0.14), 0 3px 1px -2px rgba(204, 33, 39, 0.2), 0 1px 5px 0 rgba(204, 33, 39, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(204, 33, 39, 0.14), 0 3px 1px -2px rgba(204, 33, 39, 0.2), 0 1px 5px 0 rgba(204, 33, 39, 0.12);
+}
+
+.eaw-btn.eaw-btn-pinterest:focus, .eaw-btn.eaw-btn-pinterest:active, .eaw-btn.eaw-btn-pinterest:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(204, 33, 39, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(204, 33, 39, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(204, 33, 39, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(204, 33, 39, 0.2);
+}
+
+.eaw-btn.eaw-btn-google {
+  color: #ffffff;
+  background-color: #dd4b39;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(221, 75, 57, 0.14), 0 3px 1px -2px rgba(221, 75, 57, 0.2), 0 1px 5px 0 rgba(221, 75, 57, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(221, 75, 57, 0.14), 0 3px 1px -2px rgba(221, 75, 57, 0.2), 0 1px 5px 0 rgba(221, 75, 57, 0.12);
+}
+
+.eaw-btn.eaw-btn-google:focus, .eaw-btn.eaw-btn-google:active, .eaw-btn.eaw-btn-google:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(221, 75, 57, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(221, 75, 57, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(221, 75, 57, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(221, 75, 57, 0.2);
+}
+
+.eaw-btn.eaw-btn-linkedin {
+  color: #ffffff;
+  background-color: #0976b4;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(9, 118, 180, 0.14), 0 3px 1px -2px rgba(9, 118, 180, 0.2), 0 1px 5px 0 rgba(9, 118, 180, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(9, 118, 180, 0.14), 0 3px 1px -2px rgba(9, 118, 180, 0.2), 0 1px 5px 0 rgba(9, 118, 180, 0.12);
+}
+
+.eaw-btn.eaw-btn-linkedin:focus, .eaw-btn.eaw-btn-linkedin:active, .eaw-btn.eaw-btn-linkedin:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(9, 118, 180, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(9, 118, 180, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(9, 118, 180, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(9, 118, 180, 0.2);
+}
+
+.eaw-btn.eaw-btn-reddit {
+  color: #ffffff;
+  background-color: #ff4500;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(255, 69, 0, 0.14), 0 3px 1px -2px rgba(255, 69, 0, 0.2), 0 1px 5px 0 rgba(255, 69, 0, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(255, 69, 0, 0.14), 0 3px 1px -2px rgba(255, 69, 0, 0.2), 0 1px 5px 0 rgba(255, 69, 0, 0.12);
+}
+
+.eaw-btn.eaw-btn-reddit:focus, .eaw-btn.eaw-btn-reddit:active, .eaw-btn.eaw-btn-reddit:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(255, 69, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(255, 69, 0, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(255, 69, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(255, 69, 0, 0.2);
+}
+
+.eaw-btn.eaw-btn-tumblr {
+  color: #ffffff;
+  background-color: #35465c;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(53, 70, 92, 0.14), 0 3px 1px -2px rgba(53, 70, 92, 0.2), 0 1px 5px 0 rgba(53, 70, 92, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(53, 70, 92, 0.14), 0 3px 1px -2px rgba(53, 70, 92, 0.2), 0 1px 5px 0 rgba(53, 70, 92, 0.12);
+}
+
+.eaw-btn.eaw-btn-tumblr:focus, .eaw-btn.eaw-btn-tumblr:active, .eaw-btn.eaw-btn-tumblr:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(53, 70, 92, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(53, 70, 92, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(53, 70, 92, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(53, 70, 92, 0.2);
+}
+
+.eaw-btn.eaw-btn-xing {
+  color: #ffffff;
+  background-color: #026466;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(2, 100, 102, 0.14), 0 3px 1px -2px rgba(2, 100, 102, 0.2), 0 1px 5px 0 rgba(2, 100, 102, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(2, 100, 102, 0.14), 0 3px 1px -2px rgba(2, 100, 102, 0.2), 0 1px 5px 0 rgba(2, 100, 102, 0.12);
+}
+
+.eaw-btn.eaw-btn-xing:focus, .eaw-btn.eaw-btn-xing:active, .eaw-btn.eaw-btn-xing:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(2, 100, 102, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(2, 100, 102, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(2, 100, 102, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(2, 100, 102, 0.2);
+}
+
+.eaw-btn.eaw-btn-whatsapp {
+  color: #ffffff;
+  background-color: #20b038;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(32, 176, 56, 0.14), 0 3px 1px -2px rgba(32, 176, 56, 0.2), 0 1px 5px 0 rgba(32, 176, 56, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(32, 176, 56, 0.14), 0 3px 1px -2px rgba(32, 176, 56, 0.2), 0 1px 5px 0 rgba(32, 176, 56, 0.12);
+}
+
+.eaw-btn.eaw-btn-whatsapp:focus, .eaw-btn.eaw-btn-whatsapp:active, .eaw-btn.eaw-btn-whatsapp:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(32, 176, 56, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(32, 176, 56, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(32, 176, 56, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(32, 176, 56, 0.2);
+}
+
+.eaw-btn.eaw-btn-vk {
+  color: #ffffff;
+  background-color: #45668e;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(69, 102, 142, 0.14), 0 3px 1px -2px rgba(69, 102, 142, 0.2), 0 1px 5px 0 rgba(69, 102, 142, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(69, 102, 142, 0.14), 0 3px 1px -2px rgba(69, 102, 142, 0.2), 0 1px 5px 0 rgba(69, 102, 142, 0.12);
+}
+
+.eaw-btn.eaw-btn-vk:focus, .eaw-btn.eaw-btn-vk:active, .eaw-btn.eaw-btn-vk:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(69, 102, 142, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(69, 102, 142, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(69, 102, 142, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(69, 102, 142, 0.2);
+}
+
+.eaw-btn.eaw-btn-hackernews {
+  color: #ffffff;
+  background-color: #ff6600;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(255, 102, 0, 0.14), 0 3px 1px -2px rgba(255, 102, 0, 0.2), 0 1px 5px 0 rgba(255, 102, 0, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(255, 102, 0, 0.14), 0 3px 1px -2px rgba(255, 102, 0, 0.2), 0 1px 5px 0 rgba(255, 102, 0, 0.12);
+}
+
+.eaw-btn.eaw-btn-hackernews:focus, .eaw-btn.eaw-btn-hackernews:active, .eaw-btn.eaw-btn-hackernews:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(255, 102, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(255, 102, 0, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(255, 102, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(255, 102, 0, 0.2);
+}
+
+.eaw-btn.eaw-btn-telegram {
+  color: #ffffff;
+  background-color: #0088cc;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 136, 204, 0.14), 0 3px 1px -2px rgba(0, 136, 204, 0.2), 0 1px 5px 0 rgba(0, 136, 204, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(0, 136, 204, 0.14), 0 3px 1px -2px rgba(0, 136, 204, 0.2), 0 1px 5px 0 rgba(0, 136, 204, 0.12);
+}
+
+.eaw-btn.eaw-btn-telegram:focus, .eaw-btn.eaw-btn-telegram:active, .eaw-btn.eaw-btn-telegram:hover {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(0, 136, 204, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 136, 204, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(0, 136, 204, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 136, 204, 0.2);
+}
+
+@media (max-width: 768px) {
+  .eaw-review-box-right, .eaw-review-header {
+    display: block;
+    border-top: 1px solid #e6e6e6;
+    width: 100%;
+  }
+}

@@ -1,0 +1,29 @@
+.nv-contact-list {
+  display: flex;
+  align-items: center;
+
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  &.left .icon {
+    margin-right: 5px;
+  }
+
+  &.right .icon {
+    margin-left: 5px;
+  }
+}
+
+.dark-mode {
+  .icon {
+    fill: #fff;
+  }
+}

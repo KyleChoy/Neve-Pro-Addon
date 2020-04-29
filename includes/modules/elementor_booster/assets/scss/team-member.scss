@@ -1,0 +1,36 @@
+.neb-member-figure {
+  display: inline-block;
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  &.force-round {
+    img{
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+}
+
+.neb-member-links{
+  a{
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+    &:first-child{
+      padding-left: 0;
+    }
+  }
+}
+
+.neb-member-figure,
+.neb-member-position,
+.neb-member-name,
+.neb-member-bio *{
+  margin-bottom: 10px;
+}
+
+.neb-member-name {
+  font-weight: initial;
+}
+

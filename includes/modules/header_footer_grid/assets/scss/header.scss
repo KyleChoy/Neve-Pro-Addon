@@ -1,0 +1,33 @@
+.hfg_header {
+  width: 100%;
+  z-index: 1000;
+
+  &.has-sticky-rows {
+    position: fixed;
+  }
+
+  .header--row {
+    max-height: 700px;
+  }
+
+  .header--row.is_sticky_on_scroll {
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  &.is-stuck {
+    .header--row:not(.is_sticky) {
+      overflow: hidden;
+      max-height: 0;
+    }
+
+    .is_sticky_on_scroll {
+      max-height: 700px;
+      overflow: visible;
+    }
+  }
+}
+
+.neve-transparent-header {
+  z-index: 10000;
+}

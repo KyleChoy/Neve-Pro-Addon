@@ -1,0 +1,25 @@
+.layout-selector {
+	display: flex;
+	align-items: center;
+  button {
+    margin-left: 10px;
+    flex-shrink: 0;
+  }
+}
+
+.layout-add-button.components-button.is-link {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.add-layout-form {
+  display: flex;
+  margin: 10px 0;
+
+  button {
+    flex-shrink: 0;
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,52 @@
+$devices: mobile, tablet;
+$contexts: course, membership;
+$columns-map: (
+        1: (width: '100%', margin: 0),
+        2: (width: '48.1%', margin: '3.8%'),
+        3: (width: '30.8%', margin: '3.8%'),
+        4: (width: '22.15%', margin: '3.8%'),
+        5: (width: '16.96%', margin: '3.8%'),
+        6: (width: '13.5%', margin: '3.8%'),
+) !default;
+
+@mixin breakpoint( $point ) {
+  @if $point == mobile {
+    @media (max-width: $tablet-sm) {
+      @content;
+    }
+  }
+  @if $point == tablet {
+    @media (min-width: $tablet-sm) and (max-width: $laptop-max) {
+      @content;
+    }
+  }
+}
+
+@each $device in $devices {
+  @include breakpoint($device) {
+    @each $col-count, $item-props in $columns-map {
+      @each $context in $contexts{
+        .llms-#{$context}-list.#{$device}-columns-#{$col-count} .llms-loop-item{
+          width: #{map_get( $item-props, width )};
+          margin-right: #{map_get( $item-props, margin )};
+          @if (map_get( $item-props, margin ) != 0) {
+            &:nth-child( #{$col-count}n+#{$col-count} ) {
+              margin-right: 0;
+              margin-left: -1px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.llms-loop-list{
+  display: flex;
+  flex-wrap: wrap;
+
+  li.llms-loop-item {
+    float: none;
+    display: flex;
+  }
+}

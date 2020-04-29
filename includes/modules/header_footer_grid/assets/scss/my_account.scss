@@ -1,0 +1,82 @@
+.my-account-component {
+  .sub-menu {
+    right: 0;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    top: 100%;
+    background: #fff;
+    border-top: 1px solid #f0f0f0;
+    position: absolute;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+
+    li {
+      border: 1px solid #f0f0f0;
+      border-top: none;
+      min-width: 150px;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        width: 100%;
+        padding: 7px 14px;
+        color: #0366d6;
+        font-weight: 500;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.hfg-item-first.hfg-item-left .my-account-has-dropdown .sub-menu {
+  right: unset;
+  left: 0;
+}
+
+.my-account-has-dropdown .my-account-container {
+  position: relative;
+}
+
+.my-account-has-dropdown .my-account-container:hover > .sub-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.my-account-wrapper {
+  display: flex;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  .my-account-label {
+    display: flex;
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .my-account-icon {
+    display: flex;
+    flex: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      vertical-align: middle;
+      border-radius: 50%;
+    }
+  }
+
+  &.has-label {
+    .my-account-icon {
+      margin-right: 5px;
+    }
+  }
+}

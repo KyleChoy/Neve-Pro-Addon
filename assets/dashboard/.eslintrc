@@ -1,0 +1,9 @@
+{
+  "extends": "standard",
+  "plugins": [
+    "html",
+    "promise",
+    "standard",
+    "vue"
+  ]
+}

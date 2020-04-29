@@ -1,0 +1,201 @@
+.nv-repeater--wrap .nv-repeater--item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 15px; }
+  .nv-repeater--wrap .nv-repeater--item .opened {
+    display: none; }
+
+.nv-repeater--wrap .nv-repeater-item--content {
+  border-top: 1px solid #ccc;
+  padding: 10px 15px;
+  display: none; }
+
+.nv-repeater--wrap .nv-repeater--item.expanded .nv-repeater-item--content {
+  display: block; }
+
+.nv-repeater--wrap .nv-repeater--item.expanded .nv-repeater--header .closed {
+  display: none; }
+
+.nv-repeater--wrap .nv-repeater--item.expanded .nv-repeater--header .opened {
+  display: block; }
+
+.nv-repeater--wrap .nv-repeater--toggle-input {
+  display: none; }
+
+.nv-repeater--wrap .nv-repeater--header {
+  display: flex;
+  align-items: center;
+  width: 100%; }
+  .nv-repeater--wrap .nv-repeater--header .dashicons-hidden {
+    display: none; }
+  .nv-repeater--wrap .nv-repeater--header.visibility-hidden {
+    opacity: .75; }
+    .nv-repeater--wrap .nv-repeater--header.visibility-hidden .dashicons-hidden {
+      display: block; }
+    .nv-repeater--wrap .nv-repeater--header.visibility-hidden .dashicons-visibility {
+      display: none; }
+  .nv-repeater--wrap .nv-repeater--header .nv-repeater--toggle {
+    width: 10%;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ccc;
+    cursor: pointer; }
+    .nv-repeater--wrap .nv-repeater--header .nv-repeater--toggle:hover {
+      opacity: .75; }
+    .nv-repeater--wrap .nv-repeater--header .nv-repeater--toggle i {
+      font-size: 18px; }
+  .nv-repeater--wrap .nv-repeater--header .nv-repeater--item-title {
+    width: 85%;
+    font-weight: 600;
+    display: flex;
+    padding: 10px 5px 10px 10px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer; }
+    .nv-repeater--wrap .nv-repeater--header .nv-repeater--item-title:hover {
+      opacity: .75; }
+  .nv-repeater--wrap .nv-repeater--header .nv-repeater--title-text {
+    max-width: 185px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .nv-repeater--wrap .nv-repeater--header .nv-repeater--reorder-buttons {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    display: none; }
+    .nv-repeater--wrap .nv-repeater--header .nv-repeater--reorder-buttons a {
+      cursor: pointer;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      background: #fff;
+      border-left: 1px solid #ccc;
+      color: inherit; }
+      .nv-repeater--wrap .nv-repeater--header .nv-repeater--reorder-buttons a:hover {
+        background-color: #ebebeb; }
+
+.nv-repeater--wrap .nv-repeater--footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+
+.nv-repeater--wrap .nv-repeater--reorder {
+  margin-right: 20px; }
+
+.nv-repeater--wrap.reordering .nv-repeater--reorder-buttons {
+  display: flex; }
+
+.nv-repeater--hidden-item {
+  display: none; }
+
+.nv-repeater--field {
+  margin-bottom: 10px; }
+  .nv-repeater--field label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 3px; }
+
+.nv--icon-field-wrap .form {
+  display: flex;
+  position: relative; }
+  .nv--icon-field-wrap .form input {
+    border-left: 0;
+    border-right: 0;
+    padding-left: 50px; }
+  .nv--icon-field-wrap .form .button {
+    height: auto;
+    box-shadow: none;
+    display: flex;
+    align-items: center; }
+  .nv--icon-field-wrap .form .nv--icon-selector {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    border-color: #e6e6e6;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 25px;
+    left: 0;
+    background-color: transparent; }
+  .nv--icon-field-wrap .form .nv--remove-icon {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    width: 25px;
+    padding: 0; }
+    .nv--icon-field-wrap .form .nv--remove-icon i {
+      font-size: 16px;
+      line-height: 20px; }
+
+.nv--icon-field-wrap.nv--iconpicker-expanded .nv--icons-container {
+  display: flex; }
+
+.nv--icon-field-wrap .nv--icons-container {
+  width: calc(100% - 2px);
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding-top: 3px;
+  margin-top: -3px;
+  display: none; }
+  .nv--icon-field-wrap .nv--icons-container .nv--icons-search {
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+    .nv--icon-field-wrap .nv--icons-container .nv--icons-search svg {
+      position: absolute;
+      left: 10px;
+      bottom: 10px;
+      top: 10px;
+      fill: #ccc; }
+    .nv--icon-field-wrap .nv--icons-container .nv--icons-search input {
+      padding-left: 25px;
+      width: 100%; }
+  .nv--icon-field-wrap .nv--icons-container a {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0; }
+    .nv--icon-field-wrap .nv--icons-container a:hover, .nv--icon-field-wrap .nv--icons-container a.selected {
+      background: #13aff0; }
+      .nv--icon-field-wrap .nv--icons-container a:hover svg, .nv--icon-field-wrap .nv--icons-container a.selected svg {
+        transform: scale(1.25);
+        fill: #fff; }
+
+.nv--color-picker .wp-picker-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .nv--color-picker .wp-picker-container button.wp-color-result {
+    margin-right: 0; }
+
+.nv--color-picker .wp-picker-active .wp-picker-input-wrap {
+  width: 100%;
+  display: flex; }
+  .nv--color-picker .wp-picker-active .wp-picker-input-wrap > * {
+    width: 50%; }
+    .nv--color-picker .wp-picker-active .wp-picker-input-wrap > * input {
+      width: 100%; }
+
+.nv--color-picker .wp-picker-holder {
+  margin: 0 -15px; }
+  .nv--color-picker .wp-picker-holder .iris-border {
+    background: transparent;
+    border: 0;
+    margin: 0; }
+
+.nv--checkbox-field {
+  display: flex;
+  align-items: center; }
+  .nv--checkbox-field input {
+    margin-left: auto; }

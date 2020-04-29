@@ -1,0 +1,22 @@
+@import "vars";
+@import "mixins";
+@import "components/shop";
+@import "components/featured-video";
+@import "components/single-product";
+@import "components/recently-viewed";
+@import "components/cart";
+@import "components/checkout";
+@import "components/wish-list";
+@import "components/hfg-cart-icon";
+@import "components/media-queries";
+@import "components/payment_icons";
+@import "components/related";
+@import "components/my-account";
+
+//RTL
+/* rtl:begin:ignore */
+.tns-outer {
+  direction: ltr;
+}
+
+/* rtl:end:ignore */

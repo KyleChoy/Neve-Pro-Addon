@@ -1,0 +1,12 @@
+.my-account-wrapper {
+
+  display: flex;
+  align-items: center;
+
+  .my-account-icon {
+    display: block;
+    img {
+      max-width: unset;
+    }
+  }
+}

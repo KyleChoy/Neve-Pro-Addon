@@ -1,0 +1,239 @@
+.neb-content-switcher-container {
+  padding: 10px 20px;
+  border-color: #000;
+  overflow: hidden;
+
+  .neb-content-switcher-front,
+  .neb-content-switcher-back{
+    border-color: #000;
+    list-style: none;
+  }
+
+  .neb-content-switcher-two-content {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .neb-content-switcher-switcher {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-direction: normal;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    align-items: center;
+    border-color: #000;
+    margin-bottom: 15px;
+  }
+
+  .neb-content-switcher-heading-one,
+  .neb-content-switcher-heading-two {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.neb-content-switcher-stack-no{
+  .neb-content-switcher-heading-one {
+    margin-right: 2em;
+  }
+  .neb-content-switcher-heading-two {
+    margin-left: 2em;
+  }
+  .neb-content-switcher-switcher {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.neb-content-switcher-stack-yes{
+  .neb-content-switcher-heading-one {
+    margin-bottom: 1em;
+  }
+  .neb-content-switcher-heading-two {
+    margin-top: 1em;
+  }
+  .neb-content-switcher-switcher {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.neb-content-switcher-container{
+  .neb-content-switcher-heading-one *,
+  .neb-content-switcher-heading-two * {
+    margin: 0;
+    display: table;
+    border-color: #000;
+    font-size: 23px;
+  }
+
+  .neb-content-switcher-two-content>li {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    outline: 1px solid transparent;
+    min-height: 100px;
+    -webkit-transition: all 0.7s cubic-bezier(0.5, 0.2, 0.2, 0.8);
+    -moz-transition: all 0.7s cubic-bezier(0.5, 0.2, 0.2, 0.8);
+    -o-transition: all 0.7s cubic-bezier(0.5, 0.2, 0.2, 0.8);
+    transition: all 0.7s cubic-bezier(0.5, 0.2, 0.2, 0.8);
+  }
+}
+
+.elementor-editor-active .elementor.elementor-edit-mode .neb-content-switcher-container .neb-content-switcher-two-content>li .elementor-inner,
+.elementor-editor-active .elementor.elementor-edit-mode .neb-content-switcher-container .neb-content-switcher-two-content>li .elementor-inner-section:first-child {
+  margin-top: 0;
+}
+
+.neb-content-switcher-list.fade-left{
+  .neb-content-switcher-is-visible {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .neb-content-switcher-is-hidden {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+.neb-content-switcher-list.fade-right{
+  .neb-content-switcher-is-visible {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .neb-content-switcher-is-hidden {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
+.neb-content-switcher-list.fade-bottom {
+  .neb-content-switcher-is-visible {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  .neb-content-switcher-is-hidden {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+}
+
+.neb-content-switcher-list.fade-top {
+  .neb-content-switcher-is-visible {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .neb-content-switcher-is-hidden {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+
+.neb-content-switcher-container .neb-content-switcher-two-content {
+  .neb-content-switcher-is-visible {
+    position: relative;
+    z-index: 5;
+    opacity: 1;
+  }
+
+  .neb-content-switcher-is-hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.neb-content-switcher-switcher {
+  .neb-content-switcher-button {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .neb-content-switcher-switch-label {
+    position: relative;
+    display: inline-block;
+    width: 4.5em;
+    height: 2.3em;
+    vertical-align: middle;
+  }
+  .neb-content-switcher-switch {
+    display: none;
+  }
+  .neb-content-switcher-switch-control {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-border-radius: 1.5em;
+    border-radius: 1.5em;
+    background: #f2f2f2;
+  }
+  .neb-content-switcher-switch+.neb-content-switcher-switch-control:before {
+    position: absolute;
+    content: "";
+    height: 1.8em;
+    width: 1.8em;
+    left: .25em;
+    bottom: .25em;
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #6ec1e4;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .neb-content-switcher-switch:checked+.neb-content-switcher-switch-control:before {
+    -webkit-transform: translateX(2.1em);
+    -moz-transform: translateX(2.1em);
+    -ms-transform: translateX(2.1em);
+    transform: translateX(2.1em);
+  }
+}

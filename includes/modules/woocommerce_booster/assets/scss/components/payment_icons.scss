@@ -1,0 +1,27 @@
+.nv-payment-cart-total{
+  margin: 0 20px;
+  padding-bottom: 1em;
+}
+
+.nv-payment-icons-wrapper{
+  display: inline-block;
+  width: 100%;
+  margin: 0 -3px;
+  .nv-payment-icon{
+    display: inline-block;
+    opacity: .6;
+    transition: opacity .3s;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.1);
+    padding: 3px 5px 5px;
+    margin: 3px;
+    &:hover{
+      opacity: 1;
+    }
+    svg{
+      vertical-align: middle;
+      height: 15px;
+    }
+  }
+}
+

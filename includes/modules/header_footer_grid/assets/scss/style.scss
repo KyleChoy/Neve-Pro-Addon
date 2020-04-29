@@ -1,0 +1,23 @@
+@import "social_icons";
+@import "contact";
+@import "language_switcher";
+@import "header";
+@import "footer";
+@import "transparent_header";
+@import "my_account";
+
+// Yoast breadcrumb.
+.nv--yoast-breadcrumb {
+  margin: 0;
+}
+
+.woocommerce-cart,
+.woocommerce-checkout {
+  .neve-main {
+     padding-top: 30px;
+   }
+
+  .nv-page-title-wrap {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,27 @@
+.loading {
+  -webkit-animation: rotation 1s infinite linear;
+  animation: rotation 1s infinite linear;
+}
+.button-save {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  background-color: #777;
+  padding: 2px 5px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: normal;
+  text-transform: uppercase;
+  &.active {
+    background-color: $success;
+  }
+  &.inactive {
+    background-color: transparent;
+    color: #23282d;
+  }
+}

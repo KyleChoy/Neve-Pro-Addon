@@ -1,0 +1,34 @@
+.nv-video-product {
+  .nv-featured-video {
+    margin-bottom: -5px;
+  }
+
+  &:not(.nv-video-file-src) .nv-video-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+
+  .nv-video-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .woocommerce div.product & .flex-control-thumbs {
+    > li:first-child {
+      display: flex;
+      > img {
+        padding: 10px;
+        align-self: center;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.nv-video-file-src .nv-video-wrap {
+  margin-bottom: -5px;
+}
